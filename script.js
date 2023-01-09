@@ -69,7 +69,7 @@ var lowerCasedCharacters = [
 ];
 
 // Array of uppercase characters to be included in password
-/*
+
 var upperCasedCharacters = [
   'A',
   'B',
@@ -98,7 +98,7 @@ var upperCasedCharacters = [
   'Y',
   'Z'
 ];
-*/
+
 
 
  
@@ -109,41 +109,11 @@ var numericCharacter = []
 var lowerCasedCharacter = []
 var upperCasedCharacter = []
 */
-/*
-const specialCharacters = prompt ("Would you like to include a special character?");
-const numericCharacters = prompt ("Would you like to include a number?");
-const lowerCasedCharacters = prompt ("Would you like to use a lower cased character?");
-const upperCasedCharacters = prompt ("Would you like to use an upper cased character?");
-*/
-
-//object called 'keys':
-/*
-var keys = {
-  specialCharacters: "@%+\\/'!#$^?:,)(}{][~_-."
-  numericCharacters:"0123456789"
-  lowerCasedCharacters:"abcdefghijklmnopqrstuvwxyz"
-  upperCasedCharacters: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-  
-
-}
 
 
 
-
-
-
-
-var getPasswordOptions = specialCharacters.concat(numericCharacters,lowerCasedCharacters,upperCasedCharacters);
-var length = 23
-var true = "Y"
-var false = "N"
-
-
-else()
-
-}
 // Function to prompt user for password options
-// SpecialCharacters prompt first:
+/*
 function getPasswordOptions() {
   prompt = ("How many special characters would you like?");
   if (input === yes) {
@@ -152,22 +122,17 @@ function getPasswordOptions() {
     else (return);
   }
   prompt = ("Would you like a numerical character? (Y/N");
-  if (input === Y)
+  if (input === yes)
   else ()
   return keys.specialCharacters (math.random()) * keys.specialCharacters.length]
 }
 
 }
-
-
-
-//function for getting a random element from an array
-function getPasswordRandom(){
-  if (input < 23 ) || (input < 0){
-    return(prompt = "pleas")
-  }
-}
 */
+
+
+
+
 /*
 return keys.upperCasedCharacters[math.floor(math.random())*keys.upperCasedCharacters.length]
 ]
@@ -180,19 +145,31 @@ const passwordOptions = specialCharacters.concat(numericCharacters,lowerCasedCha
 
 
 
-// Function for getting a random element from an array
-function getRandom(specialCharacters) 
-{
-  return specialCharacters[Math.floor (math.random()*specialCharacters.length)];
 
-}
-console.log(getRandom.(specialCharacters));
 
 
 // Function to generate password with user input
 function generatePassword() {
  var input = window.prompt("How many characters do you want?");
-if ((input > 8) && (input <=23)) {
+if ((input >= 0) && (input <=21)) {
+  console.log(input);
+}
+else {
+  window.alert = ("Oops, you've entered an incorrect number, please try again!");
+generatePassword();
+}
+// specialCharacter prompt:
+var input = window.prompt("How many special characters would you like?");
+if ((input >= 10) && (input <= 21)) {
+  console.log(input);
+}
+else {
+  window.alert = ("Oops, you'e entered an incorrect number, please try again!");
+  generatePassword();
+}
+// numericalValue prompt:
+var input = window.prompt("How many numerical character do you want?");
+if ((input > 0) && (input <=21)) {
   console.log(input);
   
 }
@@ -200,16 +177,42 @@ else {
   window.alert = ("Oops, you've entered an incorrect number, please try again!");
 generatePassword();
 }
-
-var input = window.prompt("How many special characters would you like?");
-if ((input >= 0) && (input <= 23)) {
+// lowerCasedCharacters prompt:
+var input = window.prompt("How many lower cased characters do you want?");
+if ((input > 0) && (input <=21)) {
   console.log(input);
+  
 }
 else {
-  window.alert = ("Oops, we've hit a roadblock, please try again!");
-  generatePassword();
+  window.alert = ("Oops, you've entered an incorrect number, please try again!");
+generatePassword();
+}
+// upperCasedCharacters prompt:
+var input = window.prompt("How many upper cased characters do you want?");
+if ((input > 0) && (input <=21)) {
+  console.log(input);
+  
+}
+else {
+  window.alert = ("Oops, you've entered an incorrect number, please try again!");
+generatePassword();
 }
 }
+
+// Function for getting a random element from an array
+/*
+function getRandom(specialCharacters) 
+getRandom = specialCharacters {
+  return specialCharacters[math.floor (math.random()*specialCharacters.length)];
+  
+}
+document.write("Your special character is");
+console.log(getRandom(specialCharacters));
+*/
+
+
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
