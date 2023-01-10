@@ -200,19 +200,29 @@ generatePassword();
 }
 
 // Function for getting a random element from an array
+ // var arr = [Math.floor(Math.random()*arr.length)];
 
-function getRandom(arr)
- var randomIndex = Math.random();{
+function getRandom() {
+  arr[Math.floor(Math.random()*arr.length)];
 
-  specialCharacters = arr[randomIndex];
+    return getRandom();
 
- return item;
+  }
+
+  
+
+
+
+
+
+
+ 
+/*For (let i = 0; i < specialCharacters.length; i++) {
 }
+*/
 
-var specialCharacters = [];
-var result = getRandom(array);
-console.log(result);
-document.write("Your special character is");
+
+
 
 
 
