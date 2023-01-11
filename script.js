@@ -147,12 +147,28 @@ const passwordOptions = specialCharacters.concat(numericCharacters,lowerCasedCha
 
 
 
-
 // Function to generate password with user input
+
+const password = "";
+const numberOfCharacters = 0;
+
+//Check to make sure password length is between 10 & 64 characters:
+
+// Length to be brought up to 10 if length entered is less than 10
+if (length < 10) {
+  length = 10;
+}
+// Total length to be brought down to 64 if exceeds?
+else if (length > 64) {
+  length = 64;
+}
+
+
+
 function generatePassword() {
  var input = window.prompt("How many characters do you want?");
 if ((input >= 0) && (input <=21)) {
-  console.log(input);
+  console.log("character" + " " + "length" + " " + "=" + input);
 }
 else {
   window.alert = ("Oops, you've entered an incorrect number, please try again!");
@@ -161,7 +177,7 @@ generatePassword();
 // specialCharacter prompt:
 var input = window.prompt("How many special characters would you like?");
 if ((input >= 10) && (input <= 21)) {
-  console.log(input);
+  console.log("Special" + "characters" + " = " + input);
 }
 else {
   window.alert = ("Oops, you'e entered an incorrect number, please try again!");
@@ -170,7 +186,7 @@ else {
 // numericalValue prompt:
 var input = window.prompt("How many numerical character do you want?");
 if ((input > 0) && (input <=21)) {
-  console.log(input);
+  console.log("Numrical" + "characters" + " " + " = " + input);
   
 }
 else {
@@ -180,7 +196,7 @@ generatePassword();
 // lowerCasedCharacters prompt:
 var input = window.prompt("How many lower cased characters do you want?");
 if ((input > 0) && (input <=21)) {
-  console.log(input);
+  console.log("Lower" + "Cased" + " " + "characters" + " = " + input);
   
 }
 else {
@@ -190,7 +206,7 @@ generatePassword();
 // upperCasedCharacters prompt:
 var input = window.prompt("How many upper cased characters do you want?");
 if ((input > 0) && (input <=21)) {
-  console.log(input);
+  console.log("Upper" + "Cased" + " " + "characters" + " = " + input);
   
 }
 else {
@@ -202,13 +218,17 @@ generatePassword();
 // Function for getting a random element from an array
  // var arr = [Math.floor(Math.random()*arr.length)];
 
-function getRandom() {
+function getRandom(specialCharacters, upperCasedCharacters, lowerCasedCharacters) {
   arr[Math.floor(Math.random()*arr.length)];
 
     return getRandom();
 
-  }
+}
+getRandom()
+//while loop?
 
+
+ 
   
 
 
