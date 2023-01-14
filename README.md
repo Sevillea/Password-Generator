@@ -29,11 +29,10 @@ I've ensured that my code is clean and exlained with the use of comments, and th
   * Once all prompts are answered then the password will be generated and displayed in the password generator field in the window. 
 
 
+  
+GitHub Pages URL:
 
-  GitHub URL:
-
-   
-   
+[![image of Password Generator Application](https://assets.digitalocean.com/articles/alligator/boo.svg)](https://digitalocean.com)
 
 
 
