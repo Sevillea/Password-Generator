@@ -10,7 +10,7 @@ I've ensured that my code is clean and exlained with the use of comments, and th
 ## Application Guide:
 
 
-* Generate a password when the button ;Generate Password' is clicked by the user.
+* Application will generate a random password when the button 'Generate Password' is clicked by the user.
 
   * User is presented with a series of prompts for password criteria. If the user fails to input correctly, they are alerted to what went wrong and returned.
 
