@@ -30,9 +30,9 @@ I've ensured that my code is clean and exlained with the use of comments, and th
 
 
   
-GitHub Pages URL:
+GitHub Pages URL: https://sevillea.github.io/Password-Generator/ 
 
-[![image of Password Generator Application](https://assets.digitalocean.com/articles/alligator/boo.svg)](https://digitalocean.com)
+[![image of Password Generator Application](https://github.com/Sevillea/Password-Generator/blob/main/Images/Initial-Input-Error.pdf)]
 
 
 
