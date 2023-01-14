@@ -22,6 +22,8 @@ I've ensured that my code is clean and exlained with the use of comments, and th
   * Code validates for each input and at least one character type will be selected of a password will not be generated and the user returned.
   * Once all prompts are answered then the password will be generated and displayed in the password generator field in theh window. 
 
+GitHub Pages URL:
+
 
 
 
