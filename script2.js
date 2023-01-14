@@ -110,7 +110,7 @@ var input = parseInt( prompt("How many characters do you want?") );
   containsUpper = confirm ("would you like upper cased characters?");
   containsLower = confirm ("Would you like lower cased characters?");
   containsNumeric = confirm("Would you like numerical characters?");
-  containsSpec = confirm("Would you like special charcters?")
+  containsSpec = confirm("Would you like special characters?")
 
 let options = {
     length: input,
@@ -142,7 +142,7 @@ let options = {
     console.log(charactersForPassword);
 
     if (!passwordOptions){ // if NOT
-        return "Password not generated because of bad input";
+        return "Oops, looks like you didn't provide a number.";
     }
     if (passwordOptions.containsUpper){
         charactersForPassword = charactersForPassword.concat(upperCasedCharacters);
